@@ -5,6 +5,139 @@
 	<title>Document</title>
 </head>
 <body>
-<script type="text/javascript" src="ejercicioreal.js"></script>
+<script type="text/javascript" >
+<!--
+	document.write("hey");
+//-->
+
+//coment goes here
+
+/* safdsufidsfcidsfs
+jdshfkjdsnfjdsnfosdnfcskc
+disnhufddjifjs*/
+document.write("i love you");
+document.write("i love you too");
+var _x = 267;
+document.write(_x);
+
+var palta = -16.34556;
+document.write(palta);
+
+var tuna = "text";
+document.write(tuna);
+
+var arroz = "hola soy , \"jes\"";
+document.write(arroz);
+// booleano
+var prueba = false;
+var prueba_dos = true;
+
+var arrocito = null;
+document.write(arrocito);
+
+var name = "jes";
+var age = 25;
+document.write(name + " is my name and my ages is " + age);
+
+var loca="soy un pez";
+var bacon="baconator?";
+var ham="haburglarr";
+document.write(loca+bacon+ham);
+
+function funky(){
+	alert("ouch!!!!");
+}
+
+function meatball(y){
+	alert("i love " + y);
+}
+meatball("bacon");
+meatball("natalie portman");
+meatball("good will hunting");
+//parametros
+function apples(one, two){
+	document.write(one + "is better than " +two + "<br />");
+}
+//pasar informacion en los pararmetros
+apples(" jes","vale");
+apples(" geny","vale");
+apples(" anghe","lau");
+//return statement
+function tooeasy(){
+	return"gametime";
+}
+
+document.write(tooeasy());
+
+
+
+function addnumbers(a,b){
+	var c=a+b;
+	return c;
+}
+
+document.write(addnumbers(3,6));
+
+function dofirst(){
+	document.write("soy primero");
+}
+
+function dosecond(){
+	document.write("222222222!");
+}
+
+function start(){
+	dofirst();
+	dosecond();
+}
+
+start();
+
+//global y local variables
+/*var girl="kelsey";
+function spit(){
+	document.write(girl);
+}
+
+spit();
+document.write(girl);
+*/
+//local solo se usa en el interior de la funcion o programa
+/*function spit(){
+	var girl="kelsey";
+	document.write(girl);
+}
+
+spit();
+document.write(girl);
+*/
+var chop=7;
+chop++;
+document.write(chop);
+
+var bucky=24;
+bucky+=67;
+bucky-=32;
+bucky*=4;
+bucky/=5;
+
+document.write(bucky);
+
+var apples=34;
+var hotdogs=53;
+
+/*si son iguales 
+https://www.youtube.com/watch?v=5gjr15aWp24&list=PL46F0A159EC02DF82&index=14*/
+if(apples==hotdogs){
+/*si no son iguales*/if(apples!=hotdogs)
+
+	document.write("yay");
+}
+
+
+</script>
+<form>
+	<input type="button" value="tócame" onclick="funky()">
+</form>
 </body>
 </html>
