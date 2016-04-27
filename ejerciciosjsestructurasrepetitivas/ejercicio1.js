@@ -21,6 +21,9 @@ suma2 = sumfunction();
 
 console.log("la suma es" +suma2);
 */
+
+
+
 // EJERCICIO 1
 //variables globales!!!
 
@@ -95,10 +98,12 @@ function promedio_tres(){
 // EJERCICIO 5
 
 //Realice un algoritmo para generar e imprimir los números pares que se encuentran entre 0 y 100.
+
+//http://www.forosdelweb.com/f13/aporte-ejercicio-algoritmo-907930/
 function pares(){
-	var numero=0;
-	for(i=0;i<10;i+=2){
-		numero+= numero + i;
+	for(i=0;i<100;i+=2){
+		var numero<100;
+		numero % 2 == 0;
 		document.getElementById("p5").innerHTML = "los números pares que se encuentran entre 0 y 100 <br />" + (numero);
 	}
 }
