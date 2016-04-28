@@ -100,10 +100,30 @@ function promedio_tres(){
 //Realice un algoritmo para generar e imprimir los números pares que se encuentran entre 0 y 100.
 
 //http://www.forosdelweb.com/f13/aporte-ejercicio-algoritmo-907930/
+
 function pares(){
-	for(i=0;i<100;i+=2){
-		var numero<100;
-		numero % 2 == 0;
-		document.getElementById("p5").innerHTML = "los números pares que se encuentran entre 0 y 100 <br />" + (numero);
-	}
+	for(i=1;i<=100;i++)
+{
+  if(i%2==0)
+  {
+  	document.write= (i,"<br/>");
+  }
 }
+}
+
+//EJERCICIO 6
+//Un triangulo rectángulo puede tener 
+//lados que sean todos enteros. El conjunto de tres valores enteros para los 
+//lados de un triángulo rectángulo se conoce como una terna pitagórica. Estos 
+//tres lados deben satisfacer la relación de que la suma de los cuadrados de dos lados 
+//es igual al cuadrado de la hipotenusa. Encuentre todas las ternas de Pitágoras para el 
+//cateto opuesto, cateto adyacente e hipotenusa, todos ellos no mayores de 500.
+
+function ternasPitagoricas(){
+	for ( var i = 1; i <= 500; i++ )
+		for ( var j = 1; j <= 500; j++ )
+			for ( var k = 1; k <= 500; k++ )
+				if ( i*i == j*j + k*k )
+					document.write("("+i+" , "+j+" , "+k+" ) ");
+}
+
